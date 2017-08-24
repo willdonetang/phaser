@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Tube</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="icon" type="image/png" href="res/icon.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+
+    <style>
+        html,body{
+            padding: 0;
+            margin: 0;
+            text-align: -webkit-center;
+            background-color: #DED895;
+
+        }
+        #screem{
+            display:inline-block;
+            background-color: #DED895;
+        }
+        #screem canvas{
+            margin:0 auto;
+        }
+        #star{
+            position: absolute;
+            left:50%;
+            top:75%;
+            margin-left:-40px;
+            display: none;
+        }
+        #name{
+            position:absolute;
+            left:50%;
+            bottom:5%;
+            font-family: sans-serif;
+            font-size: 12px;
+            margin-left:-80px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="screem"></div>
+<iframe id='star' src="http://ghbtns.com/github-btn.html?user=flynngao&repo=FlappyTube&type=watch&count=true" height="30" width="118" frameborder="0" scrolling="0" style="width:118px; height: 30px;" allowTransparency="true"></iframe>
+<script src="bower_components/phaser/phaser.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
